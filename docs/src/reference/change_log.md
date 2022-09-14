@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- TKTK: Update workflow to support augur version TKTK which allows 'augur clades' to use custom clade labels & colorings, thus simplifying the nCoV pipeline (PR [1000](https://github.com/nextstrain/ncov/pull/1000)).
+
 ## v12 (12 July 2022)
 
 - 1 July 2022: Update workflow to support Nextclade v2 (PRs [963](https://github.com/nextstrain/ncov/pull/963), [969](https://github.com/nextstrain/ncov/pull/969)). See [the Nextclade changelog](https://github.com/nextstrain/nextclade/blob/bdfd9cff73f8181bb5891a9a9c49eb0218e7e868/CHANGELOG.md#nextclade-200) for more information.
