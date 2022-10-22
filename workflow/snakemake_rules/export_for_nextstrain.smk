@@ -152,7 +152,7 @@ rule auspice_config:
         ## Note: set a value to `None` to exclude it from the produced config JSON
         default_geo_resolution = "division" if build_region in ["north-america", "oceania"] else "country"
         default_map_triplicate = True if build_region in ["reference", "global"] else False
-        if input_set == {"gisaid"}:
+        if "gisaid" in input_set:
             data_provenance = [{"name": "GISAID"}]
             gisaid_clade_coloring = {"key": "GISAID_clade", "title": "GISAID Clade", "type": "categorical"}
             gisaid_epi_isl_coloring = {"key": "gisaid_epi_isl", "type": "categorical"}
@@ -160,7 +160,7 @@ rule auspice_config:
             location_filter = "location"
             originating_lab_filter = "originating_lab"
             submitting_lab_filter  = "submitting_lab"
-        elif input_set == {"open"}:
+        elif "open" in input_set:
             data_provenance = [{"name": "GenBank", "url": "https://www.ncbi.nlm.nih.gov/genbank/"}]
             gisaid_clade_coloring = None
             gisaid_epi_isl_coloring = None
