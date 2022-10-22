@@ -30,7 +30,7 @@ files:
 # as we re-align everything after subsampling.
 inputs:
   - name: gisaid
-    metadata: "s3://nextstrain-ncov-private/metadata.tsv.xz"
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
     aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
     skip_sanitize_metadata: true
   - name: references
