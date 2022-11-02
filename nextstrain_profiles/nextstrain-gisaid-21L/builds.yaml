@@ -35,7 +35,7 @@ inputs:
     skip_sanitize_metadata: true
   - name: references
     metadata: "data/references_metadata.tsv"
-    sequences: "data/references_sequences.fasta"
+    aligned: "data/references_sequences.fasta"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
