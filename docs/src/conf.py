@@ -63,6 +63,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx_markdown_tables',
     'sphinx.ext.intersphinx',
+    'sphinx_tabs.tabs',
+    'sphinx.ext.graphviz',
     'nextstrain.sphinx.theme',
 ]
 
